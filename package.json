@@ -1,12 +1,28 @@
 {
   "name": "lecture03",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaiahe/lecture03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kaiahe/lecture03/issues"
+  },
+  "homepage": "https://github.com/Kaiahe/lecture03#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
 }
