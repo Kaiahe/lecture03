@@ -1,7 +1,9 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
+import {ListMovies} from "./application";
+
 
 ReactDOM.render(
-    <h1>Hei</h1>,
+    <ListMovies/>,
     document.getElementById("app")
 )
